@@ -61,4 +61,30 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+html {
+	font-family: Courier, serif;
+}
 
+
+body > div > header {
+	background: #3c3838;
+	color: #55ff2f;
+}
+
+.container {
+	display:inline-block;
+}
+
+.container > h1 {
+	font-family: monospace;
+	font-size: 5em;
+
+}
+
+.container > em {
+	float: right;
+}
+
+section > alt="welcome to my homepage" {
+
+}
