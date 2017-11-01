@@ -65,22 +65,40 @@ html {
 	font-family: Courier, serif;
 }
 
-
-body > div > header {
+header {
 	background: #3c3838;
 	color: #55ff2f;
 }
 
-.container {
-	display:inline-block;
-}
-
 .container > h1 {
+	display:inline-block;
 	font-family: monospace;
 	font-size: 5em;
-
+	padding-left: 3rem;
 }
 
 .container > em {
+	padding-left: 2rem;
+}
+
+img[alt*="welcome"] {
+	display: block;
+	margin: 0 auto;
+}
+
+.instructions-wrapper {
+	display: flex;
+	border-style: solid;
+	padding: 2rem;
+}
+
+.instructions-content {
+	display: inline-block;
+	float: left;
+}
+
+img[alt*="captain janeway"] {
+	max-block-size: 12rem;
 	float: right;
 }
+
