@@ -67,6 +67,10 @@ body {
 	font-family: Courier, monospace;
 }
 
+section {
+	padding: 4rem 0;
+}
+
 /*Header Styles*/
 header {
 	background: #333;
@@ -82,7 +86,7 @@ header h1 {
 /*Welcome*/
 img[alt*="welcome"] {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 2rem;
 }
 
 .instructions-wrapper {
@@ -126,6 +130,7 @@ section.about-me span {
 /*$killz*/
 section:nth-child(4) h2 {
 	text-align: right;
+	margin-top: 0;
 }
 
 td, th {
@@ -177,4 +182,5 @@ footer {
 	background-color: #000000;
 	color: #ffffff;
 	text-align: center;
+	padding: 1rem 0;
 }
