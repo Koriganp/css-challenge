@@ -79,28 +79,28 @@ header h1 {
 	margin-right: 2rem;
 }
 
-.container > em {
-	padding-left: 2rem;
-}
-
+/*Welcome*/
 img[alt*="welcome"] {
 	display: block;
 	margin: 0 auto;
 }
 
 .instructions-wrapper {
-	display: flex;
-	border-style: solid;
+	border: 5px solid #000;
 	padding: 2rem;
 }
 
 .instructions-content {
-	display: inline-block;
+	width: 60%;
 	float: left;
 }
 
-img[alt*="captain janeway"] {
-	max-block-size: 12rem;
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+img[alt="captain janeway"] {
+	width: 250px;
 	float: right;
 }
 
