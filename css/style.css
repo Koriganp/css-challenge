@@ -61,20 +61,22 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-html {
-	font-family: Courier, serif;
+
+/* Global Styles*/
+body {
+	font-family: Courier, monospace;
 }
 
+/*Header Styles*/
 header {
-	background: #3c3838;
-	color: #55ff2f;
+	background: #333;
+	color: lime;
 }
 
-.container > h1 {
-	display:inline-block;
-	font-family: monospace;
-	font-size: 5em;
-	padding-left: 3rem;
+header h1 {
+	display: inline-block;
+	font-size: 3em;
+	margin-right: 2rem;
 }
 
 .container > em {
@@ -102,3 +104,30 @@ img[alt*="captain janeway"] {
 	float: right;
 }
 
+/*About Me*/
+.about-me {
+	background-color: blue;
+	color: white;
+}
+
+section.about-me span {
+	color: #ffff00;
+	font-style: italic;
+	font-weight: bold;
+}
+/* Contact*/
+section:last-child {
+	background-color: #333333;
+	color: lime;
+}
+
+.form-wrapper {
+	background-color: darkgreen;
+}
+
+/*Footer*/
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
