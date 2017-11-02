@@ -110,6 +110,13 @@ img[alt="captain janeway"] {
 	color: white;
 }
 
+.about-me img {
+	width: 300px;
+	border: 5px solid #fff;
+	float: left;
+	margin-right: 2rem;
+}
+
 section.about-me span {
 	color: #ffff00;
 	font-style: italic;
